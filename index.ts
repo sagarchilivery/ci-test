@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  console.log("Health check");
+  console.log("get API hit successfully");
   res.send("Hello World!");
 });
 
